@@ -1,0 +1,29 @@
+name: Varbase Internationalization Base
+description: A recipe to manage internationalization, languages, and translation support with default configurations and permissions for Varbase multilingual sites.
+type: Varbase Internationalization
+install:
+  - language
+  - locale
+  - config_translation
+  - content_translation
+  - eca
+  - eca_language
+config:
+  actions:
+    user.role.editor:
+      grantPermissions:
+        - 'create content translations'
+        - 'update content translations'
+        - 'translate any entity'
+    user.role.content_admin:
+      grantPermissions:
+        - 'create content translations'
+        - 'delete content translations'
+        - 'update content translations'
+        - 'translate any entity'
+    user.role.site_admin:
+      grantPermissions:
+        - 'create content translations'
+        - 'delete content translations'
+        - 'update content translations'
+        - 'translate any entity'
