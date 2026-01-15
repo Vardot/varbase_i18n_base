@@ -18,13 +18,6 @@ This recipe provides essential internationalization features including:
 
 This is a Drupal recipe that can be applied using Drupal's recipe system.
 
-## Configuration
-
-The recipe includes default permissions for:
-- **Editor role**: Create and update content translations, translate any entity
-- **Content Admin role**: Create, update, and delete content translations, translate any entity
-- **Site Admin role**: Full translation management including create, update, and delete permissions
-
 ## Features
 
 - Complete language management system
