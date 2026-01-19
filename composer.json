@@ -1,5 +1,5 @@
 {
-  "name": "drupal/varbase_i11n_base",
+  "name": "drupal/varbase_i18n_base",
   "description": "A recipe to manage internationalization, languages, and translation support with default configurations and permissions for Varbase multilingual sites.",
   "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe", "Internationalization", "i18n", "Multilingual", "Translation"],
   "type": "drupal-recipe",
@@ -13,8 +13,8 @@
     }
   ],
   "support": {
-    "issues": "https://www.drupal.org/project/issues/varbase_i11n_base",
-    "source": "http://cgit.drupalcode.org/varbase_i11n_base"
+    "issues": "https://www.drupal.org/project/issues/varbase_i18n_base",
+    "source": "http://cgit.drupalcode.org/varbase_i18n_base"
   },
   "require": {
     "drupal/core": "~11.3.0",
