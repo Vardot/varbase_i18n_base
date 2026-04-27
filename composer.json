@@ -20,5 +20,5 @@
     "drupal/core": "~11.3.0",
     "drupal/eca": "~3"
   },
-  "version": "1.0.x-dev"
+  "version": "1.0.0-alpha1"
 }
