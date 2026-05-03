@@ -8,6 +8,7 @@ install:
   - content_translation
   - eca
   - eca_language
+  - canvas_multilingual
 config:
   actions:
     user.role.content_editor:
