@@ -18,8 +18,7 @@
   },
   "require": {
     "drupal/core": "~11.3.0",
-    "drupal/eca": "~3",
-    "drupal/canvas_multilingual": "~1"
+    "drupal/eca": "~3"
   },
   "version": "1.0.x-dev"
 }
