@@ -1,3 +1,5 @@
+[![Varbase](https://raw.githubusercontent.com/Vardot/varbase/11.0.x/images/varbase-logo.png)](https://www.drupal.org/project/varbase)
+
 # Varbase Internationalization Base
 
 A recipe to manage internationalization, languages, and translation support with default configurations and permissions for Varbase multilingual sites.
