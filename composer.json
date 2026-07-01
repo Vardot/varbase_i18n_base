@@ -17,7 +17,7 @@
     "source": "http://cgit.drupalcode.org/varbase_i18n_base"
   },
   "require": {
-    "drupal/core": "~11.3.0",
+    "drupal/core": "~11.4.0",
     "drupal/eca": "~3"
   },
   "version": "1.0.x-dev"
