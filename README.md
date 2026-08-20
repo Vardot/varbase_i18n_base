@@ -19,6 +19,18 @@ This recipe provides essential internationalization features including:
 - **eca**: Event-Condition-Action framework
 - **eca_language**: Language-specific ECA events and actions
 
+Drupal Canvas pages are translated with Drupal Canvas's own multilingual support: the recipe enables
+content translation for the Drupal Canvas `Page` entity and marks its component input values
+translatable, so page translations are created from the Canvas editor with no extra module.
+
+The recipe also ships the Translation Management Tool (TMGMT) in the codebase without enabling it,
+for sites that want translation jobs, local translators or a translation provider (AI, DeepL, Google,
+and around 60 other provider plugins):
+
+```
+drush en tmgmt tmgmt_content tmgmt_config tmgmt_local
+```
+
 ## Installation
 
 This is a Drupal recipe that can be applied using Drupal's recipe system.
@@ -29,6 +41,9 @@ This is a Drupal recipe that can be applied using Drupal's recipe system.
 - Interface and content translation capabilities
 - Configuration translation for site settings
 - Role-based translation permissions
+- Drupal Canvas page translation through Drupal Canvas's own multilingual support, with content
+  translation enabled for the Drupal Canvas `Page` entity and its component input values
+- Translation Management Tool available on demand, not enabled by default
 - ECA integration for language-based workflows
 
 ## Maintainers

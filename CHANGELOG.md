@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Enable content translation for the Drupal Canvas `Page` entity and make its component input values
+  translatable, so Drupal Canvas pages are translated with Drupal Canvas's own multilingual support.
+- Add the Translation Management Tool (TMGMT) to the codebase without enabling it, for sites that
+  want translation jobs or a translation provider.
 
 ## [1.0.0-rc1] - 2026-08-15
 ### Changed

@@ -10,6 +10,43 @@ install:
   - eca_language
 config:
   actions:
+    language.content_settings.canvas_page.canvas_page:
+      createIfNotExists:
+        target_entity_type_id: canvas_page
+        target_bundle: canvas_page
+        default_langcode: site_default
+        language_alterable: false
+        third_party_settings:
+          content_translation:
+            enabled: true
+            bundle_settings:
+              untranslatable_fields_hide: '0'
+      setProperties:
+        third_party_settings:
+          content_translation:
+            enabled: true
+            bundle_settings:
+              untranslatable_fields_hide: '0'
+    core.base_field_override.canvas_page.canvas_page.components:
+      createIfNotExists:
+        field_name: components
+        entity_type: canvas_page
+        bundle: canvas_page
+        label: Components
+        description: ''
+        required: false
+        translatable: true
+        default_value: {  }
+        default_value_callback: ''
+        settings: {  }
+        field_type: component_tree
+        third_party_settings:
+          content_translation:
+            translation_sync:
+              inputs: inputs
+              tree: '0'
+      setProperties:
+        translatable: true
     user.role.content_editor:
       grantPermissions:
         - 'create content translations'
