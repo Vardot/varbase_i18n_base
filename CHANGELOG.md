@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0-rc2] - 2026-08-20
 ### Added
 - Enable content translation for the Drupal Canvas `Page` entity and make its component input values
   translatable, so Drupal Canvas pages are translated with Drupal Canvas's own multilingual support.
@@ -31,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Internationalization Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc1...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc2...1.0.x
+[1.0.0-rc2]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc1...1.0.0-rc2
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-beta1...1.0.0-rc1
 [1.0.0-beta1]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-alpha2...1.0.0-beta1
 [1.0.0-alpha2]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-alpha1...1.0.0-alpha2
