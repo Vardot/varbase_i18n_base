@@ -21,15 +21,27 @@ This recipe provides essential internationalization features including:
 
 Drupal Canvas pages are translated with Drupal Canvas's own multilingual support: the recipe enables
 content translation for the Drupal Canvas `Page` entity and marks its component input values
-translatable, so page translations are created from the Canvas editor with no extra module.
+translatable, so a page can be translated as soon as a second language is added.
 
-The recipe also ships the Translation Management Tool (TMGMT) in the codebase without enabling it,
-for sites that want translation jobs, local translators or a translation provider (AI, DeepL, Google,
-and around 60 other provider plugins):
+The recipe also ships a translation toolkit in the codebase **without enabling any of it**, so each
+site turns on only what it needs:
 
-```
-drush en tmgmt tmgmt_content tmgmt_config tmgmt_local
-```
+- **Translation Management Tool (TMGMT)**: translation jobs, local translators and translation
+  providers.
+
+  ```
+  drush en tmgmt tmgmt_content tmgmt_config tmgmt_local
+  ```
+
+- **AI Translation Management Tool (`ai_tmgmt`)**: machine translation through the Drupal AI module,
+  offered as a TMGMT provider. Needs an AI provider and model configured first.
+
+  ```
+  drush en ai_tmgmt
+  ```
+
+The core Translate tab reaches a Drupal Canvas page's title, URL alias, description and metatags
+only. Translating the copy inside components is done through a TMGMT job.
 
 ## Installation
 
@@ -43,7 +55,8 @@ This is a Drupal recipe that can be applied using Drupal's recipe system.
 - Role-based translation permissions
 - Drupal Canvas page translation through Drupal Canvas's own multilingual support, with content
   translation enabled for the Drupal Canvas `Page` entity and its component input values
-- Translation Management Tool available on demand, not enabled by default
+- Translation Management Tool and AI machine translation available on demand, neither enabled by
+  default
 - ECA integration for language-based workflows
 
 ## Maintainers
