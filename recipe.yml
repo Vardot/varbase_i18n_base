@@ -7,10 +7,15 @@ install:
   - config_translation
   - content_translation
   - canvas_translate
+  - config_language_lock
   - eca
   - eca_language
 config:
   actions:
+    config_language_lock.settings:
+      simple_config_update:
+        locked_langcode: en
+        follow_site_default: true
     language.content_settings.canvas_page.canvas_page:
       createIfNotExists:
         target_entity_type_id: canvas_page
