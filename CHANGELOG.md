@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-rc4] - 2026-08-30
+### Added
+- Install the Canvas Translate module by default, so Drupal Canvas pages can be translated out of the
+  box. Canvas Translate resolves to `1.0.0-alpha4`, an alpha release with no usage statistics
+  reported on drupal.org.
+- Grant the `translate canvas content` permission to the `content_editor`, `content_admin`,
+  `seo_admin` and `site_admin` roles.
+- Install the Config Language Lock module by default and pin the language configuration is stored in
+  to the site default language, with a `config_language_lock.settings` action setting
+  `locked_langcode: en` and `follow_site_default: true`. With Drupal Canvas installed, Config
+  Language Lock reports an error on the status report unless `locked_langcode` equals the site
+  default language, so a site installed in a language other than English has to change that setting.
+
 ## [1.0.0-rc3] - 2026-08-23
 ### Added
 - Add the AI Translation Management Tool (`ai_tmgmt`) to the codebase without enabling it, so a site
@@ -38,7 +51,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Internationalization Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc3...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc4...1.0.x
+[1.0.0-rc4]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc3...1.0.0-rc4
 [1.0.0-rc3]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc2...1.0.0-rc3
 [1.0.0-rc2]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc1...1.0.0-rc2
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-beta1...1.0.0-rc1

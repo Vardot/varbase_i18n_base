@@ -2,7 +2,7 @@
 
 # Varbase Internationalization Base
 [![pipeline status](https://git.drupalcode.org/project/varbase_i18n_base/badges/1.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_i18n_base/-/pipelines)
-[![Varbase Internationalization Base](https://img.shields.io/badge/Varbase%20Internationalization%20Base-1.0.0--rc3-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_i18n_base/-/pipelines?ref=1.0.0-rc3)
+[![Varbase Internationalization Base](https://img.shields.io/badge/Varbase%20Internationalization%20Base-1.0.0--rc4-0d6efc?labelColor=001d38&style=flat-square)](https://git.drupalcode.org/project/varbase_i18n_base/-/pipelines?ref=1.0.0-rc4)
 [![Automated Functional Testing](https://git.drupalcode.org/project/varbase_project/badges/11.0.x/pipeline.svg)](https://git.drupalcode.org/project/varbase_project/-/pipelines)
 
 A recipe to manage internationalization, languages, and translation support with default configurations and permissions for Varbase multilingual sites.
