@@ -6,6 +6,7 @@ install:
   - locale
   - config_translation
   - content_translation
+  - canvas_translate
   - eca
   - eca_language
 config:
@@ -52,20 +53,24 @@ config:
         - 'create content translations'
         - 'update content translations'
         - 'translate any entity'
+        - 'translate canvas content'
     user.role.content_admin:
       grantPermissions:
         - 'create content translations'
         - 'delete content translations'
         - 'update content translations'
         - 'translate any entity'
+        - 'translate canvas content'
     user.role.seo_admin:
       grantPermissions:
         - 'create content translations'
         - 'update content translations'
         - 'translate any entity'
+        - 'translate canvas content'
     user.role.site_admin:
       grantPermissions:
         - 'create content translations'
         - 'delete content translations'
         - 'update content translations'
         - 'translate any entity'
+        - 'translate canvas content'
