@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-25
+### Changed
+- Use caret constraints and allow Drupal 11.4 and later and Drupal 12 in Varbase Internationalization Base recipe ([#3621092](https://git.drupalcode.org/project/varbase_i18n_base/-/work_items/3621092)).
+- Update the version badge to `1.0.1` in `README.md`.
+
 ## [1.0.0] - 2026-09-06
 ### Changed
 - Release the first stable version of the Varbase Internationalization Base recipe with the Varbase
@@ -57,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Internationalization Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc4...1.0.0
 [1.0.0-rc4]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc3...1.0.0-rc4
 [1.0.0-rc3]: https://git.drupalcode.org/project/varbase_i18n_base/-/compare/1.0.0-rc2...1.0.0-rc3
